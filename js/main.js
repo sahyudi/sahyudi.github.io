@@ -84,7 +84,29 @@ $(window).on('load', function () {
 
 		//Set progress circle 1
 		$("#progress1").circleProgress({
-			value: 0.75,
+			value: 0.90,
+			size: 175,
+			thickness: 2,
+			fill: "#40424a",
+			emptyFill: "rgba(0, 0, 0, 0)"
+		});
+		$(".circle-90").circleProgress({
+			value: 0.90,
+			size: 175,
+			thickness: 2,
+			fill: "#40424a",
+			emptyFill: "rgba(0, 0, 0, 0)"
+		});
+		$(".circle-80").circleProgress({
+			value: 0.80,
+			size: 175,
+			thickness: 2,
+			fill: "#40424a",
+			emptyFill: "rgba(0, 0, 0, 0)"
+		});
+		//Set progress circle 2
+		$(".circle-70").circleProgress({
+			value: 0.70,
 			size: 175,
 			thickness: 2,
 			fill: "#40424a",
